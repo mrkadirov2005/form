@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgb(5, 5, 59);
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 1, 37);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 15px solid orange;
+}
+label{
+    color: darkblue;
+}
+
+
+.form {
+    width: 40%;
+    height: auto;
+    background-color: rgb(19, 19, 96);
+    border: 10px solid  orangered;
+}
+.username-wrapper {
+    border: 10px solid grey;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(8, 18, 50);
+    display: flex;
+    align-items: center;
+    
+
+}
+input{
+    color: darkblue;
+    font-size: 26px;
+    border: 5px solid red;
+    
+}
+.username {
+    background-color: rgb(12, 1, 41);
+    /* color: white; */
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid red;
+    color: darkblue;
+}
+.usename {
+    background-color: green;
+    border: 5px dashed rgb(13, 3, 3);
+    padding: 10px;
+    margin: 5px;
+}
+.password-wrapper {
+    border: 10px solid grey;
+
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(8, 18, 50);
+    display: flex;
+    align-items: center;
+}
+.password-input-field {
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+   
+}
+#password-label{
+    background-color: rgb(12, 1, 41);
+    border: 5px dotted red;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+}
+.phone-number-wrapper {
+    border: 10px solid grey;
+
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(8, 18, 50);
+    display: flex;
+    align-items: center;
+
+}
+.phone-number-input-field {
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+   
+
+}
+.phnnmber{
+    background-color: rgb(12, 1, 41);
+    border: 5px dotted red;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+}
+.region-wrapper {
+    border: 10px solid grey;
+
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(8, 18, 50);
+    display: flex;
+    align-items: center;
+}
+
+.region-label{
+    background-color: rgb(12, 1, 41);
+    border: 5px dotted red;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5px;
+}
+
+.select{
+    background-color: green;
+    padding: 10px;
+    margin: 5px;
+}
+.button {
+    border: 10px solid grey;
+
+    background-color:green;
+    width: 100px;
+    height: 30px;
+    display: block;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 15px; */
+
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 40px; */
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgb(12, 1, 41) ;
+    border: 5px dotted red;
+}
+select{
+    border:5px solid green;
+}
